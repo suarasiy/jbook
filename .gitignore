@@ -26,3 +26,4 @@ yarn-error.log*
 .eslintcache
 dist/
 .cache/
+*.d.ts
