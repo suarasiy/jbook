@@ -18,3 +18,35 @@
   left: 0;
   background-color: transparent;
 }
+
+span.error-runtime {
+  display: block;
+  margin: 0.3rem 0.15rem;
+  color: red;
+  font-weight: bold;
+}
+.error {
+  font-family: consolas;
+  display: block;
+  width: fit-content;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 0, 0, 0.23);
+  padding: 11px 13px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+.error::before {
+  position: absolute;
+  content: '';
+  background-color: red;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+}
+.error span {
+  color: red;
+  margin: 0.15rem 0.15rem 0;
+}
